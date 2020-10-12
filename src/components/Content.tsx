@@ -54,10 +54,30 @@ export default function Content() {
           and for the health and safety of all students, this hackathon will be held virtually.
         </details>
         <details>
-          <summary>Who can come?</summary>
+          <summary>Who can participate?</summary>
           Any current college student or have graduated in the past year, you're more than welcome to attend! 
           Not a student? No problem! You can attend as a mentor and help out our students! 
           Mentor applications will be opening soon
+        </details>
+        <details>
+          <summary>What if I have no prior experience in programming, coding, or hackathons? </summary>
+          We don’t expect hackers to have any prior experience. We will be providing starter packs and 
+          beginner-friendly workshops to help new hackers get their projects off the ground. 
+        </details>
+        <details>
+          <summary>How much does it cost to attend Tuffy Hacks?</summary>
+          Its free!
+        </details>
+
+      
+        {/* Second Column */}
+        <details>
+          <summary>When do hacker applications open?</summary>
+          Check back on the website sometime in January 2021.
+        </details>
+        <details>
+          <summary>What do I need?</summary>
+          A computer and a passion for TuffyHacks mission!
         </details>
         <details>
           <summary>Do I need to have a group? </summary>
@@ -66,33 +86,12 @@ export default function Content() {
           help you find the right teammates!
         </details>
         <details>
-          <summary>How much does it cost to attend Tuffy Hacks?</summary>
-          Its free!
+          <summary>How many people can I have per group? </summary>
+          Maximum of 4 people.
         </details>
         <details>
-          <summary>When do hacker applications open?</summary>
-          Applications will be opening early 2021.
-        </details>
-        <details>
-          {/* Second Column */}
-          <summary>What if I have no prior experience in programming, coding, or hackathons? </summary>
-          We don’t expect hackers to have any prior experience. We will be providing starter packs and 
-          workshops to help new hackers get started on projects and learn new technologies. 
-        </details>
-        <details>
-          <summary>Will Tuffy Hacks happen in person or virtually?</summary>
-        </details>
-        <details>
-          <summary>Who can participate?</summary>
-        </details>
-        <details>
-          <summary>What if I've never been to a hackathon before?</summary>
-        </details>
-        <details>
-          <summary>How much does it cost to attend Tuffy Hacks?</summary>
-        </details>
-        <details>
-          <summary>When do hacker applications open?</summary>
+          <summary>Question not found?</summary>
+          Please email tuffyhacks@gmail.com if you have any questions! We'd love to hear from you.
         </details>
       </section>
     </main>
