@@ -44,10 +44,11 @@ export default function Content() {
 
       <section id="faq">
         <details>
-          <summary>What is Tuffy Hacks?</summary>
+          <summary>What is Tuffy Hacks?</summary>A fun time.
         </details>
         <details>
           <summary>Will Tuffy Hacks happen in person or virtually?</summary>
+          In person.
         </details>
         <details>
           <summary>Who can participate?</summary>

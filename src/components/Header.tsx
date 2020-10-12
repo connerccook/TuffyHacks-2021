@@ -8,13 +8,13 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <a>About</a>
+            <a href="#">About</a>
           </li>
           <li>
-            <a>Sponsors</a>
+            <a href="#">Sponsors</a>
           </li>
           <li>
-            <a>FAQ</a>
+            <a href="#">FAQ</a>
           </li>
         </ul>
       </nav>

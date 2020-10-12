@@ -6,9 +6,6 @@ export default function Social() {
     <aside>
       <ul>
         <li>
-          <a href="#">GitHub Icon</a>
-        </li>
-        <li>
           <a href="#">Twitter Icon</a>
         </li>
         <li>
