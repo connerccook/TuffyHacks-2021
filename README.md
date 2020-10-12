@@ -4,7 +4,7 @@
 
 ## Reference 📚
 
-- [Figma Mockup](https://www.figma.com/file/54GhVqKMnaifOzbEIkGPdC/TuffyHacks-Design?node-id=1%3A110): The site's target layout.
+- [Figma Mockup](https://www.figma.com/file/54GhVqKMnaifOzbEIkGPdC/TuffyHacks-Design?node-id=0%3A1): The site's target layout.
 - [_Learn CSS Grid_](https://learncssgrid.com/): Info about how to implement CSS grid.
 - [Layoutit](https://grid.layoutit.com/): CSS grid utility.
 
