@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 #landing div {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -9,6 +11,8 @@
     "date date"
     "link1 link2"
     "p2 p2";
+  max-width: 420px;
+
   h1 {
     grid-area: title;
   }
