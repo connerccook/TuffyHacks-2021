@@ -1,4 +1,25 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+# TuffyHacks.com
+
+> Home of TuffyHacks' frontend source code.
+
+## Reference 📚
+
+- [Figma Mockup](https://www.figma.com/file/54GhVqKMnaifOzbEIkGPdC/TuffyHacks-Design?node-id=1%3A110): The site's target layout.
+- [_Learn CSS Grid_](https://learncssgrid.com/): Info about how to implement CSS grid.
+- [Layoutit](https://grid.layoutit.com/): CSS grid utility.
+
+## Todo ✅
+
+- [x] Create HTML Markup
+- [x] Style the header
+- [ ] Style the main sections
+- [ ] Style the [aside](src/components/Social.tsx)
+
+---
+
+Built with 💖 by [TuffyHacks](https://github.com/TuffyHacks)
+
+<!-- AUTO-GENERATED-CONTENT:START (STARTER)
 <p align="center">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
@@ -96,4 +117,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+AUTO-GENERATED-CONTENT:END -->
