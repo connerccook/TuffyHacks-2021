@@ -1,0 +1,46 @@
+#landing {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 0px 0px;
+  grid-template-areas:
+    "title title"
+    "p1 p1"
+    "date date"
+    "link1 link2"
+    "p2 p2";
+  h1 {
+    grid-area: title;
+  }
+  p:nth-of-type(1) {
+    grid-area: p1;
+  }
+  time {
+    grid-area: date;
+  }
+  a:nth-of-type(1) {
+    grid-area: link1;
+  }
+  a:nth-of-type(2) {
+    grid-area: link2;
+  }
+  p:nth-of-type(1) {
+    grid-area: p2;
+  }
+}
+
+#about {
+  margin: auto;
+  #stats {
+  }
+  #info {
+  }
+}
+
+#sponsors {
+  margin: auto;
+}
+
+#faq {
+  margin: auto;
+}
