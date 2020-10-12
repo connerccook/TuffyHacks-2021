@@ -1,4 +1,4 @@
-# TuffyHacks.com
+# TuffyHacks.com 🐘
 
 > Home of TuffyHacks' frontend source code.
 
@@ -17,7 +17,7 @@
 
 ---
 
-Built with 💖 by [TuffyHacks](https://github.com/TuffyHacks)
+Built with 💖 by the [TuffyHacks Team](https://github.com/TuffyHacks)
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER)
 <p align="center">
