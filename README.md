@@ -10,9 +10,9 @@
 
 ## Todo ✅
 
-- [ ] Build Get Updates Component
-- [ ] Style the main sections
-- [ ] Style the [aside](src/components/Social.tsx)
+- [ ] Build Get Updates Component (Ethan)
+- [ ] Style the main sections () 
+- [ ] Style the [aside](src/components/Social.tsx) (Ethan)
 - [ ] Deploy the site
 - [x] Create HTML Markup
 - [x] Style the header
