@@ -10,11 +10,12 @@
 
 ## Todo ✅
 
-- [x] Create HTML Markup
-- [x] Style the header
+- [ ] Build Get Updates Component
 - [ ] Style the main sections
 - [ ] Style the [aside](src/components/Social.tsx)
-
+- [ ] Deploy the site
+- [x] Create HTML Markup
+- [x] Style the header
 ---
 
 Built with 💖 by the [TuffyHacks Team](https://github.com/TuffyHacks)
