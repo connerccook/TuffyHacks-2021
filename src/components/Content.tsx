@@ -1,4 +1,5 @@
 import React from "react"
+import GetUpdates from "./GetUpdates"
 import "../styles/Content.scss"
 
 export default function Content() {
@@ -9,7 +10,7 @@ export default function Content() {
           <h1>TuffyHacks 2021</h1>
           <p>Making dreams reality</p>
           <time dateTime="2021-3-27">March 27-28, 2021 • Virtual Event</time>
-          <a href="#">Register Now</a>
+          <a href="#get-updates">Get Updates</a>
           <a href="#">Schedule</a>
           <p>Interested in sponsoring?</p>
         </div>
@@ -35,7 +36,7 @@ export default function Content() {
               sponsors at their networking events. Your project also has the
               chance to win some of our cool prizes!
             </p>
-            <a href="#">Register Now</a>
+            <a href="#get-updates">Get Updates</a>
           </div>
         </div>
       </section>
@@ -106,9 +107,18 @@ export default function Content() {
           </details>
           <details>
             <summary>Question not found?</summary>
-            Please email tuffyhacks@gmail.com if you have any questions! We'd
-            love to hear from you.
+            Please email{" "}
+            <a href="mailto:tuffyhacks@gmail.com">tuffyhacks@gmail.com</a> if
+            you have any questions! We'd love to hear from you.
           </details>
+        </div>
+      </section>
+
+      <section id="get-updates">
+        <div>
+          <h2>Get Updates</h2>
+          <p>News, updates, and application details</p>
+          <GetUpdates />
         </div>
       </section>
     </main>

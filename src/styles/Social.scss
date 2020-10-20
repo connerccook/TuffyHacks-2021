@@ -1,9 +1,37 @@
 @import "./variables.scss";
 
 aside {
-  // position: fixed;
-  /* TODO
-   * Use `&::after` to make a vertical line on the bottom left.
-   * Use CSS grid to make the column of socials.
-   */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-left: 5em;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: row;
+
+    li {
+      text-align: center;
+      padding-bottom: 1em;
+
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    &::after {
+      content: " ";
+      width: 0px;
+      border: 2px solid black;
+      height: 200px;
+      margin-left: 50%;
+      transform: translate(-50%, 0);
+      border-radius: 2px 2px 0 0;
+    }
+  }
 }

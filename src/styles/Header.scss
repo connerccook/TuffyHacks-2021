@@ -1,6 +1,8 @@
 @import "./variables.scss";
 
 header {
+  position: fixed;
+  min-width: 100%;
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
@@ -25,14 +27,6 @@ header {
       grid-template-columns: repeat(3, 1fr);
       li {
         margin: 1em;
-        a {
-          color: $primaryColor;
-          text-decoration: none;
-          &:hover {
-            color: $secondaryColor;
-            text-decoration: underline;
-          }
-        }
       }
     }
   }
