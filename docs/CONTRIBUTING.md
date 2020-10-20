@@ -8,9 +8,9 @@
 
 ## Todo ✅
 
-- [x] Build Get Updates Component (Ethan)
 - [ ] Style the main sections ()
 - [ ] Add/style buttons for get updates/schedule ()
+- [x] Build Get Updates Component (Ethan)
 - [x] Style the [aside](src/components/Social.tsx) (Ethan)
 - [x] Create HTML Markup
 - [x] Style the header
