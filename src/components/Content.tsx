@@ -54,6 +54,7 @@ export default function Content() {
 
       <section id="faq">
         <div>
+          <h2>Frequently Asked Questions</h2>
           <details>
             <summary>What is a hackathon?</summary>A hackathon is a weekend-long
             event where students come together to learn the latest technologies
