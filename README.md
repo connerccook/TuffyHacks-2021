@@ -11,11 +11,17 @@
 ## Todo ✅
 
 - [ ] Build Get Updates Component (Ethan)
-- [ ] Style the main sections () 
+- [ ] Style the main sections ()
 - [ ] Style the [aside](src/components/Social.tsx) (Ethan)
 - [ ] Deploy the site
 - [x] Create HTML Markup
 - [x] Style the header
+
+## Design Spec 💅
+
+All of the sections on the homepage approximately take up one screen and are each styled with a [CSS grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) technique.
+Consider using [Layoutit](https://grid.layoutit.com/) to help create correct grid CSS.
+
 ---
 
 Built with 💖 by the [TuffyHacks Team](https://github.com/TuffyHacks)
