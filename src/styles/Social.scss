@@ -22,6 +22,12 @@ aside {
         width: 24px;
         height: 24px;
       }
+
+      a:hover {
+        svg path {
+          fill: $secondaryColor;
+        }
+      }
     }
 
     &::after {
