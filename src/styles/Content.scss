@@ -10,6 +10,32 @@ section {
   div {
     width: 30em;
   }
+
+  .cta {
+    font-family: "Roboto", sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+    background: black;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 8px 16px 8px 16px;
+    color: white;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+    text-align: center;
+
+    &:hover {
+      // TODO: Create a special hover effect for cta.
+    }
+  }
+
+  .hidden {
+    display: none;
+  }
 }
 
 #landing div {

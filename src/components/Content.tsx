@@ -10,8 +10,12 @@ export default function Content() {
           <h1>TuffyHacks 2021</h1>
           <p>Making dreams reality</p>
           <time dateTime="2021-3-27">March 27-28, 2021 • Virtual Event</time>
-          <a href="#get-updates">Get Updates</a>
-          <a href="#">Schedule</a>
+          <a href="#get-updates" className="cta">
+            Get Updates
+          </a>
+          <a href="#" className="cta">
+            Schedule
+          </a>
           <p>Interested in sponsoring?</p>
         </div>
       </section>
@@ -36,7 +40,9 @@ export default function Content() {
               sponsors at their networking events. Your project also has the
               chance to win some of our cool prizes!
             </p>
-            <a href="#get-updates">Get Updates</a>
+            <a href="#get-updates" className="cta">
+              Get Updates
+            </a>
           </div>
         </div>
       </section>
@@ -48,7 +54,9 @@ export default function Content() {
             Interested in sponsoring? Check out our 2021 sponsorship packages
             here. For more detailed instructions on how to sponsor, click here!
           </p>
-          <a href="#">Become a Sponsor</a>
+          <a href="#" className="cta">
+            Become a Sponsor
+          </a>
         </div>
       </section>
 

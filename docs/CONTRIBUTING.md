@@ -8,8 +8,14 @@
 
 ## Todo ✅
 
-- [ ] Style the main sections ()
-- [ ] Add/style buttons for get updates/schedule ()
+- [ ] Style the main sections
+  - [ ] Create CSS grid layout and positioning for landing section.
+  - [ ] Create CSS grid layout and positioning for about section.
+  - [ ] Create CSS grid layout and positioning for sponsors section.
+  - [ ] Create CSS grid layout and positioning for FAQ section.
+  - [ ] Create CSS grid layout and positioning for Get-Updates section.
+  - [ ] Create CSS button styling for `cta` (Call to Action) class.
+  - [ ] Create CSS effect where the line in the social component gets longer the further the scroll.
 - [x] Build Get Updates Component (Ethan)
 - [x] Style the [aside](src/components/Social.tsx) (Ethan)
 - [x] Create HTML Markup
