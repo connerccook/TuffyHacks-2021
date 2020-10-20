@@ -10,6 +10,7 @@
 
 - [ ] Build Get Updates Component (Ethan)
 - [ ] Style the main sections ()
+- [ ] Add buttons for get updates/schedule ()
 - [ ] Style the [aside](src/components/Social.tsx) (Ethan)
 - [x] Create HTML Markup
 - [x] Style the header
