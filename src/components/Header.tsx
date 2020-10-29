@@ -14,19 +14,70 @@ export default function Header() {
   return (
     <header>
       <h1>TuffyHacks</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#sponsors">Sponsors</a>
-          </li>
-          <li>
-            <a href="#faq">FAQ</a>
-          </li>
-        </ul>
-      </nav>
+      {windowWidth >= 700 ? (
+        <nav>
+          <ul>
+            {links.map(([title, anchor]) => {
+              return (
+                <li>
+                  <a href={anchor}>{title}</a>
+                </li>
+              )
+            })}
+          </ul>
+        </nav>
+      ) : (
+        <Menu styles={menuStyles}>
+          {links.map(([title, anchor]) => {
+            return <a href={anchor}>{title}</a>
+          })}
+        </Menu>
+      )}
     </header>
   )
 }
+
+const menuStyles = {
+  bmBurgerButton: {
+    position: "fixed",
+    width: "36px",
+    height: "30px",
+    left: "36px",
+    top: "36px",
+  },
+  bmBurgerBars: {
+    background: "#373a47",
+  },
+  bmBurgerBarsHover: {
+    background: "#a90000",
+  },
+  bmCrossButton: {
+    height: "24px",
+    width: "24px",
+  },
+  bmCross: {
+    background: "#bdc3c7",
+  },
+  bmMenuWrap: {
+    position: "fixed",
+    height: "100%",
+  },
+  bmMenu: {
+    background: "#373a47",
+    padding: "2.5em 1.5em 0",
+    fontSize: "1.15em",
+  },
+  bmMorphShape: {
+    fill: "#373a47",
+  },
+  bmItemList: {
+    color: "#b8b7ad",
+    padding: "0.8em",
+  },
+  bmItem: {
+    display: "inline-block",
+  },
+  bmOverlay: {
+    background: "rgba(0, 0, 0, 0.3)",
+  },
+} as const
