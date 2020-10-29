@@ -1,16 +1,15 @@
 @import "./variables.scss";
 
+main {
+  padding: 0 5em;
+}
+
 section {
   width: 100%;
   height: 100vh;
   display: grid;
   // justify-content: center;
   align-content: center;
-
-  div {
-    width: 30em;
-    grid-auto-columns: fit-content(1em);
-  }
 
   h2 {
     font-size: 32px;
@@ -109,7 +108,6 @@ section {
     }
     #info {
       width: 30em;
-      margin-left: 40em;
       p {
         margin: 2em 0 2em 0;
       }
@@ -118,6 +116,10 @@ section {
 }
 
 #sponsors {
+  div {
+    max-width: 30em;
+    grid-auto-columns: fit-content(1em);
+  }
   margin: auto;
   p {
     margin: 2em 0 2em 0;
@@ -138,10 +140,13 @@ section {
   display: flex;
   flex-direction: row;
   margin-top: 40px;
+  align-items: stretch;
+  justify-content: space-around;
 }
 
 .faq-column {
   max-width: 400px;
+  flex-shrink: 1;
   font-size: 18px;
   margin: 10px 5px 0 5px;
 }
