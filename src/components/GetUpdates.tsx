@@ -1,5 +1,5 @@
 import React from "react"
-import "../styles/Header.scss"
+import "../styles/GetUpdates.scss"
 
 const mailchimpUrl =
     "https://tuffyhacks.us2.list-manage.com/subscribe/post?u=d31df1f969a989a94e25f8dc6&amp;id=441948ac07",
@@ -12,6 +12,7 @@ export default function GetUpdates() {
         <input
           type="email"
           name="EMAIL"
+          className="email-input-field"
           placeholder="enter your email"
           required
         />
