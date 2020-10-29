@@ -3,6 +3,11 @@ import { useWindowWidth } from "@react-hook/window-size" // https://github.com/j
 import { slide as Menu } from "react-burger-menu" // https://github.com/negomi/react-burger-menu
 import "../styles/Header.scss"
 
+if (typeof window !== 'undefined') {
+  // eslint-disable-next-line global-require
+  require('smooth-scroll')('a[href*="#"]', { header: '#navbar' })
+}
+
 const links: [string, string][] = [
   ["About", "#about"],
   ["Sponsors", "#sponsors"],
@@ -12,8 +17,8 @@ const links: [string, string][] = [
 export default function Header() {
   const windowWidth = useWindowWidth()
   return (
-    <header>
-      <h1>TuffyHacks</h1>
+    <header id="navbar">
+      <h1><a href="/#landing">TuffyHacks</a></h1>
       {windowWidth >= 700 ? (
         <nav>
           <ul>
