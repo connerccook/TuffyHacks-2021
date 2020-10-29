@@ -11,7 +11,6 @@ export default function GetUpdates() {
       <form action={mailchimpUrl} method="post" target="_blank" noValidate>
         <input
           type="email"
-          value=""
           name="EMAIL"
           placeholder="enter your email"
           required
@@ -20,7 +19,6 @@ export default function GetUpdates() {
           type="text"
           name={mailchimpId}
           tabIndex={-1}
-          value=""
           className="hidden"
         />
         <input
