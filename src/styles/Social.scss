@@ -4,7 +4,7 @@ aside {
   position: fixed;
   bottom: 0;
   left: 0;
-  margin-left: 5em;
+  margin-left: 2em;
 
   ul {
     list-style: none;
@@ -31,10 +31,10 @@ aside {
     }
 
     &::after {
-      content: " ";
+      content: "";
       width: 0px;
       border: 2px solid black;
-      height: 200px;
+      height: 10em;
       margin-left: 50%;
       transform: translate(-50%, 0);
       border-radius: 2px 2px 0 0;
